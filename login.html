@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>学校管理系统登陆</title>
+  <link rel="stylesheet" href="css/ace.css">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+<!--头部-->
+<header>
+  <div class="login-content">
+    <a class="login-link" href="http://b.jiacedu.com"></a>
+  </div>
+</header>
+<!--登陆主体-->
+<section>
+  <div class="login-content">
+    <img src="img/class.png" alt="" class="teach">
+    <!--登陆界面-->
+    <div class="login-box">
+      <h4>会员登陆</h4>
+      <div class="input-wrapper mt25">
+        <input type="text" name="account" id="account" placeholder="登陆账号" class="input-box bdc" maxlength="40">
+      </div>
+      <div class="input-wrapper mt22">
+        <input type="password" name="password" id="password" placeholder="登陆密码" class="input-box bdc" maxlength="40">
+      </div>
+      <div class="input-wrapper mt22">
+        <input type="text" name="security-code" id="security-code" placeholder="输入右侧验证码"
+               class="input-box-sm bdc pct100" maxlength="6">
+        <img src="" alt="" id="img-code">
+      </div>
+      <div class="btn-wrapper mt40">
+        <button id="login-btn">登录</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!--尾页-->
+<footer>
+  <p>上海家策教育科技有限公司 上海市徐汇区南丹东路300号亚都商务楼1201室</p>
+  <p class="mt10">© 2016-2017 家策商学院 沪ICP备16022947号-2</p>
+</footer>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/login.js"></script>
+</html>

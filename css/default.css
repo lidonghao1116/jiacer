@@ -1,0 +1,475 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+a {
+	color: #389bcf;
+	text-decoration: none;
+}
+a:hover,
+a:focus {
+	color: #246f96;
+	text-decoration: none;
+	outline: none;
+	star: expression(this.onFocus=this.blur());
+}
+:focus {
+	-moz-outline-style: none;
+}
+/*  全局 margin 属性   */
+.m0 {
+	margin: 0
+}
+.m5 {
+	margin: 5px;
+}
+.p5 {
+	padding: 5px;
+}
+.m10 {
+	margin: 10px;
+}
+.p10 {
+	padding: 10px;
+}
+.ml0 {
+	margin-left: 0;
+}
+.ml5 {
+	margin-left: 5px;
+}
+.ml10 {
+	margin-left: 10px;
+}
+.ml15 {
+	margin-left: 15px;
+}
+.ml20 {
+	margin-left: 20px;
+}
+.ml30 {
+	margin-left: 30px;
+}
+.mr0 {
+	margin-right: 0;
+}
+.mr5 {
+	margin-right: 5px;
+}
+.mr10 {
+	margin-right: 10px;
+}
+.mr15 {
+	margin-right: 15px;
+}
+.mr20 {
+	margin-right: 20px;
+}
+.mr30 {
+	margin-right: 30px;
+}
+.mt0 {
+	margin-top: 0;
+}
+.mt5 {
+	margin-top: 5px;
+}
+.mt10 {
+	margin-top: 10px;
+}
+.mt15 {
+	margin-top: 15px;
+}
+.mt20 {
+	margin-top: 20px;
+}
+.mt30 {
+	margin-top: 30px;
+}
+.mb0 {
+	margin-bottom: 0;
+}
+.mb5 {
+	margin-bottom: 5px;
+}
+.mb10 {
+	margin-bottom: 10px;
+}
+.mb15 {
+	margin-bottom: 15px;
+}
+.mb20 {
+	margin-bottom: 20px;
+}
+.mb30 {
+	margin-bottom: 30px;
+}
+.m05 {
+	margin: 0 5px;
+}
+.m010 {
+	margin: 0 10px;
+}
+/*  全局 padding  属性   */
+
+.pl0 {
+	padding-left: 0;
+}
+.pl5 {
+	padding-left: 5px;
+}
+.pl10 {
+	padding-left: 10px;
+}
+.pl15 {
+	padding-left: 15px;
+}
+.pl20 {
+	padding-left: 20px;
+}
+.pl30 {
+	padding-left: 30px;
+}
+.pt0 {
+	padding-top: 0;
+}
+.pt5 {
+	padding-top: 5px;
+}
+.pt10 {
+	padding-top: 10px;
+}
+.pt15 {
+	padding-top: 15px;
+}
+.pt20 {
+	padding-top: 20px;
+}
+.pt30 {
+	padding-top: 30px;
+}
+.pb0 {
+	padding-bottom: 0;
+}
+.pb5 {
+	padding-bottom: 5px;
+}
+.pb10 {
+	padding-bottom: 10px;
+}
+.pb15 {
+	padding-bottom: 15px;
+}
+.pb20 {
+	padding-bottom: 20px;
+}
+.pb30 {
+	padding-bottom: 30px;
+}
+.pr0 {
+	padding-right: 0;
+}
+.pr5 {
+	padding-right: 5px;
+}
+.pr10 {
+	padding-right: 10px;
+}
+.pr15 {
+	padding-right: 15px;
+}
+.pr20 {
+	padding-right: 20px;
+}
+.pr30 {
+	padding-right: 30px;
+}
+.dr-dib {
+	display: inline-block;
+}
+.posa {
+	position: absolute;
+}
+.posr {
+	position: relative;
+}
+.oneline {
+	vertical-align: middle;
+	display: table-cell;
+}
+
+
+/*  所有 文字颜色 大小 粗细 全局通用的   */
+/*  黑白字体  */
+
+.color333 {
+	color: #333;
+}
+/*  深灰色  */
+.color666 {
+	color: #666;
+}
+/*  中等深灰色  */
+
+.color999 {
+	color: #999;
+}
+/*  50%灰色  */
+
+.colorccc {
+	color: #ccc;
+}
+/*  #ccc灰色  */
+
+.colorccc {
+	color: #ddd;
+}
+/*  #ddd灰色  */
+
+.coloreee {
+	color: #eee;
+}
+/*  #eee灰色  */
+
+.colorwhite {
+	color: #fff;
+}
+/*  白色  */
+
+.fontbold {
+	font-weight: bold;
+}
+/*  粗体  */
+
+.font_s12 {
+	font-size: 12px;
+}
+.font_s14 {
+	font-size: 14px;
+}
+.font_s16 {
+	font-size: 16px;
+}
+.font_s18 {
+	font-size: 18px;
+}
+.font_s20 {
+	font-size: 20px;
+}
+.lh160 {
+	line-height: 160%;
+}
+.lh180 {
+	line-height: 180%;
+}
+.lh210 {
+	line-height: 210%;
+}
+.lh270 {
+	line-height: 270%;
+}
+/* 多于文字 显示为...*/
+
+.ellipsis {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+}
+/*  英文字体换行  */
+
+.wordbreak {
+	word-wrap: break-word;
+	overflow: hidden;
+}
+/*强调class颜色值*/
+
+.text-primary {
+	color: #389bcf!important;
+}
+.text-warning {
+	color: #ffb240!important;
+}
+.text-danger {
+	color: #ff4440!important;
+}
+.text-success {
+	color: #7bc143!important;
+}
+.text-info {
+	color: #11b1cd!important;
+}
+
+/*登陆页面样式*/
+#supersized-loader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 0;
+	width: 60px;
+	height: 60px;
+	margin: -30px 0 0 -30px;
+	text-indent: -999em;
+	background: url(images/progress.gif) no-repeat center center;
+}
+#supersized {
+	display: block;
+	position: fixed;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#supersized img {
+	width: auto;
+	height: auto;
+	position: relative;
+	display: none;
+	outline: none;
+	border: none;
+}
+#supersized.speed img {
+	-ms-interpolation-mode: nearest-neighbor;
+	image-rendering: -moz-crisp-edges;
+}
+
+/*Speed*/
+#supersized.quality img {
+	-ms-interpolation-mode: bicubic;
+	image-rendering: optimizeQuality;
+}
+/*Quality*/
+#supersized li {
+	display: block;
+	list-style: none;
+	z-index: -30;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #111;
+}
+#supersized a {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+#supersized li.prevslide {
+	z-index: -20;
+}
+#supersized li.activeslide {
+	z-index: -10;
+}
+#supersized li.image-loading {
+	background: #111 url(images/progress.gif) no-repeat center center;
+	width: 100%;
+	height: 100%;
+}
+#supersized li.image-loading img {
+	visibility: hidden;
+}
+#supersized li.prevslide img,
+#supersized li.activeslide img {
+	display: inline;
+}
+#supersized img {
+	max-width: none !important
+}
+.dr-login-page {
+	text-align: center;
+	width: 40%;
+	min-width: 420px;
+	margin: 10% auto 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 4px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	padding: 40px 20px;
+	min-height: 200px;
+}
+.dr-login-page .form-group {
+	float: none;
+	margin: 20px auto;
+}
+.dr-login-page .logo {
+	background: url(images/login_logo.png) no-repeat;
+	display: inline-block;
+	width: 386px;
+	height: 79px;
+	margin-bottom: 30px;
+}
+
+/*搜索条*/
+
+.searchbar {
+	border: 1px solid #ddd;
+	background: #fbfbfb;
+	border-radius: 3px;
+	padding: 5px 10px;
+	font-size: 12px;
+	/* margin-bottom: 10px; */
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.dr-asterisk {
+color: #ED5466;
+margin-left: 5px;
+vertical-align: middle;
+}
+
+/*!
+ * Copyright &copy; 2012-2013 <a href="https://github.com/thinkgem/jeesite">JeeSite</a> All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ */
+html,body {scrollbar-face-color:#ffffff;scrollbar-highlight-color:#ffffff;scrollbar-darkshadow-color:#ffffff;padding:0;}
+img {max-width:auto;} h1 {font-size:30px;} h1, h2, h3, h4, h5, h6 {margin:0;} a {outline: none;} a:active {star:expression(this.onFocus=this.blur());}
+body,label,input,button,select,textarea,.uneditable-input,.navbar-search .search-query {font-family:Helvetica, Georgia, Arial, sans-serif, 宋体;font-size:13px;_font-size:12px;}
+.input-append .add-on,.input-prepend .add-on,.input-append .btn,.input-prepend .btn,.input-append .btn-group > .dropdown-toggle,.input-prepend .btn-group > .dropdown-toggle {vertical-align: middle;}
+label {display:inline-block;margin-bottom:0;} input[type="radio"],input[type="checkbox"] {margin:-2px 3px;*margin-top:1px;}
+input[disabled],select[disabled],textarea[disabled],input[readonly],select[readonly],textarea[readonly] {cursor:auto;background-color:#f3f3f3;}
+.input-prepend input,.input-append input,.input-prepend select,.input-append select,.input-prepend .uneditable-input,.input-append .uneditable-input {position:static;}
+legend {margin:10px 0;*left:-7px;*position:relative;color:#0088CC;*width:99.5%}
+
+.form-horizontal .form-group {
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 15px;
+}
+.form-color{
+	background-color: rgb(0, 255, 206);
+}
+.form-padding{
+	padding-top: 5px;
+}
+.padding-7{
+	padding-top: 7px;
+}
+
+#sidebar h1 {
+    height: 62px;
+    padding-left: 60px;
+    background: url(../loginImg/arrow.png) no-repeat;
+    background-position: 20px center;
+    line-height: 62px;
+    font-size: 18px;
+    color: #6F9937;
+    border-bottom: 1px solid #E8EBEC;
+    background-color: #FFFFFF;
+}
